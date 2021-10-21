@@ -1,6 +1,6 @@
 {
-  "name": "Voltage Calculator",
-  "short_name": "Voltage Calculator",
+  "name": "Voltage",
+  "short_name": "Voltage",
   "start_url": ".",
   "background_color": "rgb(237, 233, 246)",
   "theme_color": "rgb(237, 233, 246)",
