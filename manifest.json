@@ -1,0 +1,20 @@
+{
+  "name": "Voltage Calculator",
+  "short_name": "Voltage Calculator",
+  "start_url": ".",
+  "background_color": "rgb(237, 233, 246)",
+  "theme_color": "rgb(237, 233, 246)",
+  "display": "standalone",
+  "icons":[
+    {
+      "src": "./favicons/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicons/apple-touch-icon-1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }  
+  ]   
+}

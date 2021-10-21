@@ -2,7 +2,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=0">
     <title></title>
-    <link rel="manifest" href="manifest.json"> 
     <link rel="stylesheet" href="./style.css">
     <script type="text/javascript" src="./main.js"></script>
   </head>
@@ -10,9 +9,9 @@
 <div id="Container">
 <div id="Plus_Button" class="Increment_Buttons">+</div>
 <div id="Field">  
-<input id="Input_Voltage_Field" type="number" inputmode="decimal">    
+<input type="number" inputmode="decimal" placeholder="1.00">    
 </div>
-<div id="Minus_Button" class="Increment_Buttons">−</div>
+<div id="Minus_Button" class="Increment_Buttons">-</div>
 </div>    
     
     

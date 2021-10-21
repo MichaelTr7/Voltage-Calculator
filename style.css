@@ -1,3 +1,70 @@
 body{
-  background-color: rgb(240,240,240);
+  background-color: rgb(237, 233, 246);
+  margin: 0;
 }
+
+
+#Container{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    --Width: 75vw;
+    --Height: 70vh;
+    position: fixed;
+    top: calc(50% - var(--Height)/2);
+    left: calc(50% - var(--Width)/2);
+    height: var(--Height);
+    width: var(--Width);
+}
+
+.Increment_Buttons, #Field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    font-weight:bold;
+    font-family: Arial;
+    border-radius: 50px;
+    color: rgb(202, 199, 210);
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.3), inset 0px 3px 0px 5px rgba(255,255,255,0.9);
+    background-color: rgb(237, 233, 246);
+}
+
+#Plus_Button,#Minus_Button{
+    position: relative;
+    --Diameter: 25vw;
+    height: var(--Diameter);
+    width: var(--Diameter);
+    top: calc(50% - var(--Diameter)/2);
+    left: calc(50% - var(--Diameter)/2);
+    border-radius: 100%;
+    color: rgb(202, 199, 210);
+}
+
+
+input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 6rem;
+    display: flex;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(202, 199, 210);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+
