@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(237, 233, 246);
+  background-color: rgb(0, 0, 0);
   margin: 0;
 }
 
@@ -13,7 +13,7 @@ body{
     --Width: 75vw;
     --Height: 70vh;
     position: fixed;
-    top: calc(50% - var(--Height)/2);
+    top: calc(52% - var(--Height)/2);
     left: calc(50% - var(--Width)/2);
     height: var(--Height);
     width: var(--Width);
@@ -27,9 +27,9 @@ body{
     font-weight:bold;
     font-family: Arial;
     border-radius: 50px;
-    color: rgb(202, 199, 210);
-    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.3), inset 0px 3px 0px 5px rgba(255,255,255,0.9);
-    background-color: rgb(237, 233, 246);
+    color: rgb(28, 28, 28);
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.3), inset 0px 3px 0px 2px rgba(255, 255, 255, 0.2);
+    background-color: rgb(18, 18, 18);
 }
 
 #Plus_Button,#Minus_Button{
@@ -40,7 +40,9 @@ body{
     top: calc(50% - var(--Diameter)/2);
     left: calc(50% - var(--Diameter)/2);
     border-radius: 100%;
-    color: rgb(202, 199, 210);
+    color: rgba(226, 226, 226, 1);
+      text-shadow: 0 0 20px rgb(255,255,255,0.4), 0 0 40px rgb(255,255,255,0.4), 0 0 60px rgb(255,255,255,0.5), 0 0 70px rgba(0,194,159,0.5), 0 0 85px rgba(0,194,159,0.8);
+
 }
 
 
@@ -69,19 +71,5 @@ button:focus {
 }
 
 
-@media screen and (orientation: landscape) {
-  html {
-    /* Rotate the content container */
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    /* Set content width to viewport height */
-    width: 100vh;
-    /* Set content height to viewport width */
-    height: 100vw;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
 }
 
