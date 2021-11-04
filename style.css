@@ -26,7 +26,7 @@ pointer-events:none;
     --Width: 75vw;
     --Height: 70vh;
     position: fixed;
-    top: calc(52% - var(--Height)/2);
+    top: calc(47% - var(--Height)/2);
     left: calc(50% - var(--Width)/2);
     height: var(--Height);
     width: var(--Width);
