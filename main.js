@@ -20,9 +20,9 @@ function Increment_Voltage(){
     console.log("Add 6.25mV");
     let Current_Voltage = document.getElementById("Input_Voltage_Field").value;
     document.getElementById("Input_Voltage_Field").value = Math.round((parseFloat(Current_Voltage)+0.00625)*1000000)/1000000;
-
-
-
+    this.classList.remove("Pulse_Button_Animation");
+    void this.offsetWidth;
+    this.classList.add("Pulse_Button_Animation");
 } 
 
 
@@ -31,7 +31,7 @@ function Decrement_Voltage(){
     let Current_Voltage = document.getElementById("Input_Voltage_Field").value;
     console.log(Current_Voltage);
     document.getElementById("Input_Voltage_Field").value = Math.round((parseFloat(Current_Voltage)-0.00625)*1000000)/1000000;
-
-
-
+    this.classList.remove("Pulse_Button_Animation");
+    void this.offsetWidth;
+    this.classList.add("Pulse_Button_Animation");
 }
