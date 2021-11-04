@@ -2,6 +2,7 @@
 
 window.onload = function(){
     document.getElementById("Input_Voltage_Field").addEventListener("change",Voltage_Entered);
+    document.getElementById("Input_Voltage_Field").value = 0.5;
     document.getElementById("Plus_Button").addEventListener("click",Increment_Voltage);
     document.getElementById("Minus_Button").addEventListener("click",Decrement_Voltage);
    
