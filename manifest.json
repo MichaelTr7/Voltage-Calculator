@@ -1,9 +1,9 @@
 {
-  "name": "Mult-e-Tool",
-  "short_name": "Mult-e-Tool",
+  "name": "Voltage Step",
+  "short_name": "Voltage Step",
   "start_url": ".",
-  "background_color": "#141414",
-  "theme_color": "#141414",
+  "background_color": "#",
+  "theme_color": "#000000",
   "display": "standalone",
   "icons":[
     {
