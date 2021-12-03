@@ -4,11 +4,11 @@ body{
 }
 
 #Parent_Container{
-    position: fixed;
+  position: fixed;
   background-color: rgb(0, 0, 0);
-    height: 100vh;
-    width: 100vw;
-pointer-events:none;
+  height: 100vh;
+  width: 100vw;
+  pointer-events:none;
 }
 
 
@@ -54,10 +54,9 @@ pointer-events:none;
     left: calc(50% - var(--Diameter)/2);
     border-radius: 100%;
     color: rgba(226, 226, 226, 1);
-      text-shadow: 0 0 20px rgb(255,255,255,0.4), 0 0 40px rgb(255,255,255,0.4), 0 0 60px rgb(255,255,255,0.5), 0 0 70px rgba(0,194,159,0.5), 0 0 85px rgba(0,194,159,0.8);
-    pointer-events:auto;
+    text-shadow: 0 0 20px rgb(255,255,255,0.4), 0 0 40px rgb(255,255,255,0.4), 0 0 60px rgb(255,255,255,0.5), 0 0 70px rgba(0,194,159,0.5), 0 0 85px rgba(0,194,159,0.8);
+    pointer-events: auto;
 }
-
 
 input{
     height: 100%;
@@ -84,11 +83,9 @@ button:focus {
   touch-action: manipulation;
 }
 
-
 .Pulse_Button_Animation{
     animation: Pulse_Button 0.25s ease;
 }
-
 
 @keyframes Pulse_Button{
     0%{transform: scale(1);}
@@ -97,8 +94,6 @@ button:focus {
     }
     100%{transform: scale(1);}
 }
-
-
 
 .noFlash {
 /* Remove onclick Background Color Change */
@@ -111,6 +106,7 @@ button:focus {
 user-select: none;
 -webkit-tap-highlight-color: transparent;
 }
+
 .noFlash:focus {
   /* Remove onclick Border Color Change */
   /* REFERENCE: https://bit.ly/2KFgNG7 */
