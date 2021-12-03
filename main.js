@@ -5,10 +5,10 @@ window.onload = function(){
     document.getElementById("Input_Voltage_Field").value = 0.5;
     document.getElementById("Plus_Button").addEventListener("click",Increment_Voltage);
     document.getElementById("Minus_Button").addEventListener("click",Decrement_Voltage);
-    document.getElementById("Plus_Button").addEventListener("mousedown",Pressed_Button);
-    document.getElementById("Minus_Button").addEventListener("mousedown",Pressed_Button);
-    document.getElementById("Plus_Button").addEventListener("mouseup",Released_Button);
-    document.getElementById("Minus_Button").addEventListener("mouseup",Released_Button);
+    document.getElementById("Plus_Button").addEventListener("touchstart",Pressed_Button);
+    document.getElementById("Minus_Button").addEventListener("touchstart",Pressed_Button);
+    document.getElementById("Plus_Button").addEventListener("touchend",Released_Button);
+    document.getElementById("Minus_Button").addEventListener("touchend",Released_Button);
 }
 
 
