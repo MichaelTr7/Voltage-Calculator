@@ -1,3 +1,19 @@
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open(cacheName).then(function(cache) {
+      return cache.addAll(
+        [
+          '/main.js',
+          '/index.html',
+          '/style.css',
+          '/manifest.json'
+        ]
+      );
+    })
+  );
+});
+
+
 
 
 window.onload = function(){
@@ -7,7 +23,6 @@ window.onload = function(){
     document.getElementById("Minus_Button").addEventListener("click",Decrement_Voltage);
    
 }
-
 
 function Voltage_Entered(){
     console.log("Voltage Entered");
