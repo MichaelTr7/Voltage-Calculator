@@ -14,7 +14,7 @@ self.addEventListener('install', function(event) {
 });
 
 
-const Increment=0.005;
+const Increment=0.00625;
 
 window.onload = function(){
     document.getElementById("Input_Voltage_Field").addEventListener("change",Voltage_Entered);
